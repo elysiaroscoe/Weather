@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header container">
+        <h1>DojoWeather</h1>
+        <div class="container cities">
+            <p id="city" onclick="alertBox()">Burbank</p>
+            <p id="city" onclick="alertBox()">Chicago</p>
+            <p id="city" onclick="alertBox()">Dallas</p>
+        </div>
+    </div>
+
+    <div class="container sanjose">
+        <h1>San Jose</h1>
+        <div class="container">
+            <p>show temperature in</p>
+            <select>
+                <option value="celsius">&#176; C</option>
+                <option value="fahrenheit">&#176; F</option>
+            </select>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="calendar container">
+        <div class="day">
+            <h1>Today</h1>
+            <img src="assets/some_rain.png" alt="some rain">
+            <p>some rain</p>
+            <div class="container temps">
+                <p class="high">24&#176;</p>
+                <p class="low">18&#176;</p>
+            </div>
+        </div>
+        <div class="day">
+            <h1>Tomorrow</h1>
+            <img src="assets/some_sun.png" alt="some sun">
+            <p>some sun</p>
+            <div class="container temps">
+                <p class="high">27&#176;</p>
+                <p class="low">19&#176;</p>
+            </div>
+        </div>
+        <div class="day">
+            <h1>Friday</h1>
+            <img src="assets/some_clouds.png" alt="some clouds">
+            <p>some clouds</p>
+            <div class="container temps">
+                <p class="high">21&#176;</p>
+                <p class="low">16&#176;</p>
+            </div>
+        </div>
+        <div class="day">
+            <h1>Saturday</h1>
+            <img src="assets/some_sun.png" alt="some sun">
+            <p>some sun</p>
+            <div class="container temps">
+                <p class="high">26&#176;</p>
+                <p class="low">21&#176;</p>
+            </div>
+        </div>
+
+        <div class="container cookiebox" id="removeme">
+            <img src="assets/cookie.png" alt="cookie">
+            <div class="message">
+                <h2>Stop! Cookie time</h2>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <span><a href="">Read more...</a></span></p>
+            </div>
+            <button onclick="removeAlert()">I accept</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

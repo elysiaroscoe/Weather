@@ -1,0 +1,87 @@
+*{
+    border: none;
+    margin: none;
+    padding: none;
+    font-family: cursive;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    background-color: #9FC5F8;
+    color: white;
+    justify-content: space-between;
+}
+
+.cities p{
+    margin: 15px;
+}
+
+.sanjose{
+    justify-content: space-between;
+}
+
+select{
+    border: 2px black solid;
+    margin-left: 5px;
+}
+
+hr{
+    background-color: black;
+    height: 5px;
+}
+
+.high{
+    color: red;
+}
+
+.low{
+    color: dodgerblue;
+}
+
+.temps{
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+.day{
+    background-color: lightgray;
+    margin: 15px;
+    padding: 5px;
+}
+
+.day h1{
+    text-align: center;
+}
+
+.day p{
+    text-align: center;
+}
+
+.day img{
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.cookiebox{
+    position: fixed;
+    bottom: 0px;
+    border: solid black 5px;
+    background-color: white;
+}
+
+.cookiebox button{
+    background-color: #9FC5F8;
+    padding: 5px;
+    border: black solid 2px;
+    margin-right: 5px;
+}
+
+.message{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
